@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('../fonts/Quicksand/Quicksand-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('../fonts/Quicksand/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url('../fonts/Quicksand/Quicksand-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('../fonts/Quicksand/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../fonts/OpenSans/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+}
+
+h2 {
+    font-family: 'Quicksand-Regular';
+    font-style: normal;
+    color: #3D4F9F;
+}
+
+h3 {
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+}
+
+h4 {
+    font-family: 'OpenSans-Bold';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #4074F8;
+}
+
+p {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+}
+
+button {
+    font-family: 'Quicksand-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #D1D6E3;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot_active {
+    background: #5283FF;
+}
+
+.line {
+    width: 1440px;
+    border-bottom: 1px solid #D8E3FE;
+}

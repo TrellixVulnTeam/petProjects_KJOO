@@ -1,0 +1,31 @@
+@use './increase-block__play-button/increase-block__play-button.scss';
+@use './increase-block__dots/increase-block__dots.scss';
+@use './increase-block__chart/increase-block__chart.scss';
+.increase-block__wrapper {
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/main/increase-block/increase-block__wrapper/clouds.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+    h3 {
+        margin-top: 92px;
+        margin-bottom: 16px;
+    }
+    h2 {
+        font-family: 'Quicksand-Light';
+        margin-bottom: 28px;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+        .increase-block__h2_last-word {
+            font-family: 'Quicksand-Medium';
+            font-weight: 500;
+        }
+    }
+    p {
+        text-align: center;
+    }
+}

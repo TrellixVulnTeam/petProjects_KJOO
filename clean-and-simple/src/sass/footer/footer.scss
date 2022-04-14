@@ -1,0 +1,11 @@
+@use '../header/navigation/navigation.scss';
+@use '../header/links/links.scss';
+@use '../header/header__button/header__button.scss';
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 287px;
+    padding: 101px 117px 160px;
+}

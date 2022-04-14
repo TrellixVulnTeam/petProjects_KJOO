@@ -1,0 +1,16 @@
+@use './features-block__button/features-block__button.scss';
+@use './features-block__button/features-block__button_active/features-block__button_active.scss';
+.features-block__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: center;
+    button {
+        width: 113px;
+        height: 43px;
+        border: none;
+    }
+    span {
+        text-transform: uppercase;
+    }
+}

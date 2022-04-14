@@ -1,0 +1,25 @@
+.started-block__text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 91px 364px 28px;
+    h3,
+    h2,
+    p {
+        color: #FFFFFF;
+    }
+    h2 {
+        font-family: 'Quicksand-Light';
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 60px;
+        margin: 16px 0px 28px;
+    }
+    .started-block__h2_second-word {
+        font-family: 'Quicksand-Medium';
+        font-weight: 500;
+    }
+    p {
+        text-align: center;
+    }
+}

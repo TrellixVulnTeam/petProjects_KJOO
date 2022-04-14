@@ -1,0 +1,16 @@
+.started-block__button {
+    height: 43px;
+    font-family: 'Quicksand-Medium';
+    font-weight: 500;
+    color: #C7D3FF;
+    border: 1px solid #A0B4FF;
+    box-sizing: border-box;
+    background: transparent;
+    &:hover {
+        color: #565F82;
+        background-color: #ffffff;
+        font-family: 'Quicksand-Bold';
+        font-style: normal;
+        font-weight: 700;
+    }
+}

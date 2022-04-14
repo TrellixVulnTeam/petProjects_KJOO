@@ -1,0 +1,16 @@
+.faq-menu__question_active {
+    font-family: 'Quicksand-Bold';
+    font-weight: 700;
+    color: #495274;
+    cursor: pointer;
+    &::before {
+        content: url('../images/main/faq-block/faq-menu/faq-menu__item/faq-menu__icon.png');
+        position: absolute;
+        width: 14px;
+        height: 7px;
+        top: 8px;
+        left: -24px;
+        cursor: pointer;
+        transform: rotate(180deg);
+    }
+}

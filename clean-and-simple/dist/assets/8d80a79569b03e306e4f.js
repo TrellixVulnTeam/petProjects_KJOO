@@ -1,0 +1,1 @@
+import"./sass/styles.scss";import{revealProgressIcon}from"./jsModules/iconProgressReveal.js";revealProgressIcon();import{buttonsStyleChange}from"./jsModules/buttonsStyle.js";buttonsStyleChange();import{iconZoomReveal}from"./jsModules/iconZoomInreveal";iconZoomReveal();import{initFaq}from"./jsModules/faqModule.js";initFaq(),window.addEventListener("load",console.log("fuck"));

@@ -1,0 +1,10 @@
+.customers__apple-watch {
+    width: 116.58px;
+    height: 24.29px;
+    mask-image: url('../images/main/customers/customers__nav/customers__apple-watch/apple-watch.png');
+    background-color: #D6DAE5;
+    cursor: pointer;
+    &:hover {
+        background-color: #5982E7;
+    }
+}

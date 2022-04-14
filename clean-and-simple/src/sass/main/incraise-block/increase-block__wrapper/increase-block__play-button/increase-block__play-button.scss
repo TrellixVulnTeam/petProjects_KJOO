@@ -1,0 +1,33 @@
+.increase-block__play-button {
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6);
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.12);
+    }
+    //     &::after {
+    //         content: url('../images/main/increase-block/increase-block__wrapper/increase-block__play-button/play-button.png');
+    //         position: absolute;
+    //         top: 20px;
+    //         left: 22px;
+    //     }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 21px;
+        left: 23px;
+        width: 0px;
+        height: 0;
+        border-left: 10px solid #5E81FF;
+        border-top: 5.5px solid transparent;
+        border-bottom: 5.5px solid transparent;
+        border-radius: 4px;
+    }
+}

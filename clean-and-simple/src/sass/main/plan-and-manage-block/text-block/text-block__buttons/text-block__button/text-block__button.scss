@@ -1,0 +1,17 @@
+.text-block__button {
+    width: 130.08px;
+    height: 43px;
+    margin: 0;
+    border: 1px solid #D1D1E4;
+    box-sizing: border-box;
+    font-family: 'Quicksand-Medium';
+    font-weight: 500;
+    color: #ADB4D2;
+    &:hover {
+        background-color: #4C85FF;
+        font-family: 'Quicksand-Bold';
+        font-weight: 700;
+        color: #FFFFFF;
+        border: none;
+    }
+}

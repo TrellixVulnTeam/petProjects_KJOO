@@ -1,0 +1,16 @@
+.newsletter-block__text-content {
+    display: flex;
+    flex-direction: column;
+    h2 {
+        font-family: 'Quicksand-Bold';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #3D4F9F;
+        margin-bottom: 18px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 27px;
+    }
+}

@@ -1,0 +1,25 @@
+.faq-menu__question {
+    font-family: 'Quicksand-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    // align-items: center;
+    letter-spacing: 0.03em;
+    color: #8E96B7;
+    margin-bottom: 16px;
+    position: relative;
+    margin-top: 17px;
+    margin-left: 62px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    &::before {
+        content: url('../images/main/faq-block/faq-menu/faq-menu__item/faq-menu__icon.png');
+        position: absolute;
+        width: 14px;
+        height: 7px;
+        top: 4px;
+        left: -24px;
+        cursor: pointer;
+    }
+}

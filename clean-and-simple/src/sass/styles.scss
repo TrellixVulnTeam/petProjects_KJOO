@@ -1,0 +1,17 @@
+@use './reset.scss';
+@use './variables.scss';
+@use './header/header.scss';
+@use './main/incraise-block/increase-block.scss';
+@use './main/customers/customers__nav/customers__nav.scss';
+@use './main/plan-and-manage-block/plan-and-manage-block.scss';
+@use './main/features-block/features-block.scss';
+@use './main/stats-block/stats-block.scss';
+@use './main/blog-block/blog-block.scss';
+@use './main/quotes-block/quotes-block.scss';
+@use './main/faq-block/faq-block.scss';
+@use './main/started-block/started-block.scss';
+@use './main/newsletter-block/newsletter-block.scss';
+@use './footer/footer.scss';
+body {
+    width: 1440px;
+}

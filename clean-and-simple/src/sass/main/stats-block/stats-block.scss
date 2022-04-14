@@ -1,0 +1,21 @@
+@use './percent-block/percent-block.scss';
+@use './amount-block/amount-block.scss';
+.stats-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    height: 343px;
+    .text {
+        font-family: 'Quicksand-Medium';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+    }
+    .numbers {
+        font-size: 48px;
+        line-height: 83px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+    }
+}

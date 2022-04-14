@@ -1,0 +1,9 @@
+@use './text-block/text-block.scss';
+@use './illustration-block/illustration-block.scss';
+.plan-and-manage-block {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    height: 776px;
+    background: #F5F8FF;
+}

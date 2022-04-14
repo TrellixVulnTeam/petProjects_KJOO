@@ -1,0 +1,26 @@
+@use './text-block__video-button/text-block__video-button.scss';
+@use './text-block__features-button/text-block__features-button.scss';
+@use './text-block__buttons/text-block__buttons.scss';
+@use './text-block__buttons/text-block__button/text-block__button.scss';
+@use './text-block__buttons/text-block__button/text-block__button_active/text-block__button_active.scss';
+.text-block {
+    margin-left: 271px;
+    h3 {
+        margin-top: 208px;
+        margin-bottom: 27px;
+    }
+    h2 {
+        margin-bottom: 27px;
+        font-family: 'Quicksand-Medium';
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: 500;
+        .text-block__h2_second-word {
+            font-family: 'Quicksand-Light';
+            font-weight: 300;
+        }
+    }
+    p {
+        margin-bottom: 47px;
+    }
+}

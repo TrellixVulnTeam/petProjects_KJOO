@@ -1,0 +1,14 @@
+@use './percent-block__icon/percent-block__icon.scss';
+.percent-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 66px 90px 66px 370px;
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    width: 720px;
+    h2 {
+        text-align: right;
+        color: #FFFFFF;
+    }
+}

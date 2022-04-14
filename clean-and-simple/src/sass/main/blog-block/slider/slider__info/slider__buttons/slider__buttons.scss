@@ -1,0 +1,7 @@
+@use './slider__button_info/slider__button_info.scss';
+@use './slider__button_bookmark/slider__button_bookmark.scss';
+button {
+    height: 43px;
+    border-radius: 2px;
+    border: none;
+}

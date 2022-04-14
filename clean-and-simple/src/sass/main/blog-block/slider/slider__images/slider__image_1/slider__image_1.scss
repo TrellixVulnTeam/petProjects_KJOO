@@ -1,0 +1,11 @@
+.slider__image_1 {
+    width: 267.32px;
+    height: 267px;
+    filter: drop-shadow(0px 15px 100px #E5EBF8);
+    // background: linear-gradient(13.46deg, rgba(255, 199, 53, 0.44) 1.89%, rgba(255, 227, 154, 0.93) 1.9%, rgba(255, 159, 90, 0) 68.24%), url('../images/main/blog-block/slider/slider__images/img1.png');
+    background-image: url('../images/main/blog-block/slider/slider__images/img1.png');
+    background-position: center;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}

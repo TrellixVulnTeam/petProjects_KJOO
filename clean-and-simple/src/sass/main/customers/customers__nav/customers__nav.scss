@@ -1,0 +1,14 @@
+@use './customers__apple-watch/customers__apple-watch.scss';
+@use './customers__atlassian/customers__atlassian.scss';
+@use './customers__audi/customers__audi.scss';
+@use './customers__bit-bucket/customers__bit-bucket.scss';
+@use './customers__facebook/customers__facebook.scss';
+.customers__nav {
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 76.5px;
+    margin: 0 276px;
+}

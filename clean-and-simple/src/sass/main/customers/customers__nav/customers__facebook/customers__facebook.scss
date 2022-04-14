@@ -1,0 +1,10 @@
+.customers__facebook {
+    width: 116.58px;
+    height: 22.37px;
+    mask-image: url('../images/main/customers/customers__nav/customers__facebook/facebook.png');
+    background-color: #D6DAE5;
+    cursor: pointer;
+    &:hover {
+        background-color: #5982E7;
+    }
+}

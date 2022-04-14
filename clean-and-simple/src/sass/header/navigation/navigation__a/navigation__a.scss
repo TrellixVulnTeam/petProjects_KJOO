@@ -1,0 +1,18 @@
+.navigation__a {
+    font-family: 'Quicksand-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #697CA6;
+    text-shadow: 0px 0px 5px #E6E6E6;
+    text-decoration: none;
+    &:hover {
+        color: #5E81FE;
+        font-family: 'Quicksand-Bold';
+        font-weight: 700;
+    }
+}

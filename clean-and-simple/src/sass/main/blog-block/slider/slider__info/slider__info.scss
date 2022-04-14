@@ -1,0 +1,17 @@
+@use './slider__buttons/slider__buttons.scss';
+.slider__info {
+    // margin: 63px 41px 64px 67px;
+    .slider__h2 {
+        font-family: 'Quicksand-Regular';
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 45px;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 27px;
+        margin-bottom: 31px;
+    }
+}

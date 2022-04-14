@@ -1,0 +1,8 @@
+@use './button_pricing/button_pricing.scss';
+@use './button_documentation/button_documentation.scss';
+@use './started-block__button/started-block__button.scss';
+@use './started-block__button/started-block__button_active/started-block__button_active.scss';
+.started-block__buttons {
+    display: flex;
+    flex-direction: row;
+}

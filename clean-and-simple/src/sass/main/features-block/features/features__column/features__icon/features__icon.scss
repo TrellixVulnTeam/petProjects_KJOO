@@ -1,0 +1,10 @@
+@use '../../features__column_overview/features__icon_overview/features__icon_overview.scss';
+@use '../../features__column_files/features__icon_files/features__icon_files.scss';
+@use '../../features__column_meeting/features__icon_meeting/features__icon_meeting.scss';
+@use '../../features__column_events/features__icon_events/features__icon_events.scss';
+.features__icon {
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: #F1F5FF;
+}

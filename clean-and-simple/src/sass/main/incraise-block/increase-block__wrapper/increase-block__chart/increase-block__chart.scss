@@ -1,0 +1,13 @@
+@use './increase-block__chart-dots/increase-block__chart-dots_first/increase-block__chart-dots_first.scss';
+@use './increase-block__chart-dots/increase-block__chart-dots_second/increase-block__chart-dots_second.scss';
+@use './increase-block__chart-dots/increase-block__chart-dots_third/increase-block__chart-dots_third.scss';
+@use './increase-block__chart-dots/increase-block__chart-dots_forth/increase-block__chart-dots_forth.scss';
+@use './increase-block__speed-rect/increase-block__speed-rect.scss';
+.increase-block__chart {
+    width: 1441px;
+    height: 347px;
+    margin-top: -347px;
+    background: url('../images/main/increase-block/increase-block__wrapper/increase-block__chart/chart-background.png'), url('../images/main/increase-block/increase-block__wrapper/increase-block__chart/chart-line.png');
+    background-repeat: no-repeat;
+    position: relative;
+}

@@ -1,0 +1,32 @@
+.increase-block__speed-rect {
+    width: 92px;
+    height: 63.26px;
+    background: #ffffff;
+    position: absolute;
+    top: -75px;
+    left: -40px; // position: relative;
+    // border: 2px solid #C4C4C4;
+    border-radius: 2px;
+    transition: transform 0.4s ease;
+    &::before {
+        content: url('../images/main/increase-block/increase-block__wrapper/increase-block__chart/increase-block__speed-rect/speed-rect.png');
+        position: absolute;
+        top: 16px;
+        left: 27px;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 61.61px;
+        left: 35.03px;
+        width: 0;
+        height: 0;
+        border: 9.95px solid transparent;
+        border-top: 7.35px solid #ffffff;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    &:hover {
+        transform: scale(1.2);
+    }
+}

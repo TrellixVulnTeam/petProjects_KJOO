@@ -1,0 +1,20 @@
+@use './navigation__a/navigation__a.scss';
+@use './navigation__a/navigation__a_active/navigation__a_active.scss';
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    position: relative;
+    margin-left: 73px;
+    margin-right: 361px;
+    &::before {
+        content: '';
+        background-color: #5E81FE;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        position: absolute;
+        left: -73px;
+        top: -5px;
+    }
+}

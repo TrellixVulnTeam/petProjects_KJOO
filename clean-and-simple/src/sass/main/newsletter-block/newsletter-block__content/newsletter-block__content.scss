@@ -1,0 +1,9 @@
+@use './newsletter-block__text-content/newsletter-block__text-content.scss';
+@use './newsletter-block__input/newsletter-block__input.scss';
+@use './newsletter-block__button/newsletter-block__button.scss';
+.newsletter-block__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 118px 276px 119px;
+}

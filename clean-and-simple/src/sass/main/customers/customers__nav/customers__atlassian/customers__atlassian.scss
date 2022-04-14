@@ -1,0 +1,10 @@
+.customers__atlassian {
+    width: 116.57px;
+    height: 24.07px;
+    mask-image: url('../images/main/customers/customers__nav/customers__atlassian/atlassian.png');
+    background-color: #D6DAE5;
+    cursor: pointer;
+    &:hover {
+        background-color: #5982E7;
+    }
+}

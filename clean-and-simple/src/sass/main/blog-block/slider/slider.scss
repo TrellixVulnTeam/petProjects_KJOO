@@ -1,0 +1,17 @@
+@use './slider__images/slider__images.scss';
+@use './slider__info/slider__info.scss';
+@use './slider__arrows/slider__arrows.scss';
+@use './slider__dots/slider__dots.scss';
+.slider {
+    width: 958px;
+    height: 394px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 63px 41px 64px 35px;
+    background: #FFFFFF;
+    border: 1px solid #D8E3FE;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 50px #EFF4FF;
+    position: relative;
+}

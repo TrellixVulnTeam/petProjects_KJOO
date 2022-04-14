@@ -1,0 +1,15 @@
+.faq-menu__answer_open {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    gap: 62px;
+    align-items: center;
+    margin: 16px 0 53px 80px;
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+}

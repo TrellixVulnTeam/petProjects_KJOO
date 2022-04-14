@@ -1,0 +1,9 @@
+@use './links__facebook/links__facebook.scss';
+@use './links__m/links__m.scss';
+@use './links__telegram/links__telegram.scss';
+@use './links__twitter/links__twitter.scss';
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}

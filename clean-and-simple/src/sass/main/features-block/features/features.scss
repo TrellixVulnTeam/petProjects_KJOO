@@ -1,0 +1,12 @@
+@use './features__column_overview/features__column_overview.scss';
+@use './features__column_files/features__column_files.scss';
+@use './features__column_meeting/features__column_meeting.scss';
+@use './features__column_events/features__column_events.scss';
+@use './features__column/features__column.scss';
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 340px 92px 340px;
+    gap: 67px;
+}

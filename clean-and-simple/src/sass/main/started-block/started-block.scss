@@ -1,0 +1,10 @@
+@use './started-block__text-content/started-block__text-content.scss';
+@use './started-block__buttons/started-block__buttons.scss';
+.started-block {
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../images/main/started-block/clouds.png'), linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    // background-image: url('../images/main/started-block/clouds.png');
+}

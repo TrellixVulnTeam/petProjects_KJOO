@@ -1,0 +1,14 @@
+@use './amount-block__icon/amount-block__icon.scss';
+.amount-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 370px 66px 90px;
+    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+    align-items: flex-start;
+    width: 720px;
+    h2 {
+        text-align: left;
+        color: #5E80FF;
+    }
+}

@@ -1,0 +1,10 @@
+@use './illustration-block__laptop/illustration-block__laptop.scss';
+@use './illustration-block__phone_left/illustration-block__phone_left.scss';
+@use './illustration-block__phone_right/illustration-block__phone_right.scss';
+.illustration-block {
+    width: 653px;
+    height: 436px;
+    margin-top: 170px;
+    margin-left: 55px;
+    position: relative;
+}

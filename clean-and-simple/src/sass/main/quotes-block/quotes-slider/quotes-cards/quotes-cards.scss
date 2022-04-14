@@ -1,0 +1,15 @@
+@use './quote-card__content/quote-card__content.scss';
+@use './quote-card__content/quote-card__photo-user/quote-card__photo-user.scss';
+.quotes-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 64px;
+    width: 423px;
+    height: 175.37px;
+    background: #FFFFFF;
+    border: 1px solid #D8E3FE;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 50px #F3F5FA;
+    margin-bottom: 78.16px;
+}

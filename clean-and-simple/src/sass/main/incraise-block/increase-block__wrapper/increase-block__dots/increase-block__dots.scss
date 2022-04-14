@@ -1,0 +1,10 @@
+@use './increase-block__dot/increase-block__dot.scss';
+@use './increase-block__dot_active/increase-block__dot_active.scss';
+.increase-block__dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 48px;
+    margin-top: 176px;
+    z-index: 1;
+}
