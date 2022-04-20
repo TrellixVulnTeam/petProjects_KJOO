@@ -1,10 +1,10 @@
 .customers__audi {
     width: 116.58px;
     height: 28.94px;
-    mask-image: url('../images/main/customers/customers__nav/customers__audi/audi.png');
-    background-color: #D6DAE5;
+    // mask-image: url('../images/main/customers/customers__nav/customers__audi/audi.png');
+    // background-color: #D6DAE5;
     cursor: pointer;
-    &:hover {
-        background-color: #5982E7;
+    svg path:hover {
+        fill: #6188FF;
     }
 }

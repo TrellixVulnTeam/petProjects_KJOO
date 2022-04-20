@@ -1,10 +1,10 @@
 .links__telegram {
     width: 14.7px;
     height: 11.79px;
-    mask-image: url('../images/header/links/links__telegram/tg.png');
-    background-color: #B6BAC7;
+    // mask-image: url('../images/header/links/links__telegram/tg.png');
+    // background-color: #B6BAC7;
     cursor: pointer;
-    &:hover {
-        background-color: #6188FF;
+    svg path:hover {
+        fill: #6188FF;
     }
 }

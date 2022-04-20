@@ -1,8 +1,10 @@
 @use './quotes-cards/quotes-cards.scss';
 @use './quotes-slider__dots/quotes-slider__dots.scss';
+@use '../../../../../../../../API/flickity/docs/flickity.css';
 .quotes-slider {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    // display: inline-block;
+    // flex-direction: column;
+    // align-items: center;
+    width: 700px;
     margin: 109.23px 0 108.23px 0;
 }

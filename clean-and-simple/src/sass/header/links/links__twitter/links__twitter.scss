@@ -1,10 +1,10 @@
 .links__twitter {
     width: 16.51px;
     height: 13.78px;
-    mask-image: url('../images/header/links/links__twitter/tw.png');
-    background-color: #B6BAC7;
+    // mask-image: url('../images/header/links/links__twitter/tw.png');
+    // background-color: #B6BAC7;
     cursor: pointer;
-    &:hover {
-        background-color: #6188FF;
+    svg path:hover {
+        fill: #6188FF;
     }
 }

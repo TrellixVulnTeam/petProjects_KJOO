@@ -1,15 +1,31 @@
 @use './quote-card__content/quote-card__content.scss';
 @use './quote-card__content/quote-card__photo-user/quote-card__photo-user.scss';
 .quotes-cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 64px;
-    width: 423px;
-    height: 175.37px;
-    background: #FFFFFF;
-    border: 1px solid #D8E3FE;
-    box-sizing: border-box;
-    box-shadow: 0px 5px 50px #F3F5FA;
-    margin-bottom: 78.16px;
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: nowrap;
+    // gap: 64px;
+    // width: 423px;
+    // height: 175.37px;
+    // background: #FFFFFF;
+    // border: 1px solid #D8E3FE;
+    // box-sizing: border-box;
+    // box-shadow: 0px 5px 50px #F3F5FA;
+    // margin-bottom: 78.16px;
+    // padding-right: 64px;
+    .flickity-page-dots {
+        .dot {
+            width: 8px;
+            height: 8px;
+            background: #D1D6E3;
+            border-radius: 50%;
+            cursor: pointer;
+            opacity: 1;
+            margin: 0 12px;
+        }
+        .is-selected {
+            background-color: #5283FF;
+            opacity: 1;
+        }
+    }
 }

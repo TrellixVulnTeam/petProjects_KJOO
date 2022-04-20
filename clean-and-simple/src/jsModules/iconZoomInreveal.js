@@ -1,17 +1,20 @@
 export const iconZoomReveal = () => {
     const images = document.querySelectorAll('.js-image');
-    const zoomIcons = document.querySelectorAll('.js-zoom-icon');
-    console.log(images);
+    const zoomIcon = document.querySelector('.js-zoom-icon');
 
     images.forEach((image, i) => {
-        const zoomIcon = zoomIcons[i];
+        // const zoomIcon = zoomIcons[i];
         image.addEventListener('mouseover', () => {
-            zoomIcon.classList.add('images_zoom-icon');
-            image.appendChild(zoomIcon)
-            console.log(zoomIcon);
+            zoomIcon.classList.add('images__zoom-icon');
+            image.appendChild(zoomIcon);
         })
-        zoomIcon, image.addEventListener('mouseout', () => {
-            image.removeChild(zoomIcon)
-        })
+
+        // image.addEventListener('mouseout', () => {
+        //     zoomIcon.classList.remove('images__zoom-icon');
+        // })
+    })
+
+    zoomIcon.addEventListener('click', () => {
+        console.log('fuck you');
     })
 }

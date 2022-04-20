@@ -1,9 +1,23 @@
 .quote-card__content {
+    width: 66%;
+    height: 175.37px;
+    // background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #D8E3FE;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 50px #F3F5FA;
+    margin-bottom: 78.16px;
+    margin-right: 64px;
+    opacity: 0.45;
     p {
         font-size: 14px;
         line-height: 24px;
-        color: #676F95;
+        color: #8D96BD;
         padding-top: 41.09px;
         padding-left: 61px;
+    }
+    &.is-selected {
+        background-color: #FFFFFF;
+        opacity: 1;
+        color: #676F95;
     }
 }
